@@ -1,0 +1,24 @@
+{
+    "name": "betternether:crimson_house_template",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element":{
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "betternether:crimson_house",
+          "processors": "minecraft:empty"
+        }            
+      },
+      {
+        "weight": 1,
+        "element":{
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "betternether:crimson_farm_house",
+          "processors": "minecraft:empty"
+        }
+      }      
+    ]
+  }

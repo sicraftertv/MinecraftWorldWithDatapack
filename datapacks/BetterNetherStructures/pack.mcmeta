@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "pack_format": 18,
+            "description": {
+      		"text": "Better Nether Strucutres",
+      			"color": "aqua",
+      	"hoverEvent": {
+        		"action": "show_text",
+        		"value": "And More!"
+      }
+    }
+    }
+}

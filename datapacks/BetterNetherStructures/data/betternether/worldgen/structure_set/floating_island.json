@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "betternether:floating_island",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1613913559,
+      "frequency": 0.5,
+      "spacing": 60,
+      "separation": 5
+    }
+  }

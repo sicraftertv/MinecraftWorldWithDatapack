@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "betternether:end_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 118645320,
+    "spacing": 30,
+    "separation": 5
+  }
+}

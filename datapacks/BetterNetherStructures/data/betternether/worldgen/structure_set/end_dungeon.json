@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "betternether:end_dungeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 373119897,
+    "frequency": 0.36,
+    "spacing": 30,
+    "separation": 7
+  }
+}

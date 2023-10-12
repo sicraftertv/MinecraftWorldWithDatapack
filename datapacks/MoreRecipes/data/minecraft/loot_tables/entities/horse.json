@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beef"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "text": "Very Tasty Flesh",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_count",
+          "count": 1
+        },
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "name": "Horse Flesh"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/horse"
+}
